@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/ember.config.schema.json",
+  "comment": "Ember MCP Unity 客户端配置示例",
+
+  "server": {
+    "comment": "ember-mcp 网关服务器配置",
+    "url": "localhost",
+    "port": 4000,
+    "apiKey": ""
+  },
+
+  "instance": {
+    "comment": "Unity 实例配置",
+    "instanceId": "",
+    "comment": "留空则自动生成唯一ID",
+    "projectName": "",
+    "comment": "留空则自动获取Unity项目名称",
+    "portRange": {
+      "min": 8000,
+      "max": 9000
+    }
+  },
+
+  "behavior": {
+    "comment": "行为配置",
+    "autoRegister": true,
+    "comment": "启动Unity时自动连接到ember-mcp",
+    "heartbeatInterval": 10000,
+    "comment": "心跳间隔（毫秒），建议5000-60000",
+    "verboseLogging": false
+  }
+}

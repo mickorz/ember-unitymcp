@@ -1,0 +1,37 @@
+{
+  "name": "com.kiff.ember-unitymcp",
+  "displayName": "Ember MCP Unity Client",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "description": "Unity 实例自动注册到 ember-mcp 网关服务。支持心跳保活、多实例管理、MCP 工具路由。让 Claude Code 能够通过 ember-mcp 网关与多个 Unity 实例同时交互。",
+  "keywords": [
+    "mcp",
+    "claude",
+    "unity",
+    "ember",
+    "gateway",
+    "ai",
+    "llm",
+    "model-context-protocol",
+    "editor",
+    "automation"
+  ],
+  "author": {
+    "name": "Kiff",
+    "email": "your.email@example.com",
+    "url": "https://github.com/mickorz"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mickorz/ember-unitymcp.git"
+  },
+  "samples": [
+    {
+      "displayName": "默认配置",
+      "description": "ember-mcp 默认配置示例",
+      "path": "Samples~/Configuration"
+    }
+  ],
+  "type": "library"
+}
